@@ -1,0 +1,71 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>delete</servlet-name>
+  	<display-name>delete</display-name>
+  	<description></description>
+  	<servlet-class>com.V5.controller.delete</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>afsd</servlet-name>
+  	<display-name>afsd</display-name>
+  	<description></description>
+  	<servlet-class>com.V5.controller.afsd</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>edit</servlet-name>
+  	<display-name>edit</display-name>
+  	<description></description>
+  	<servlet-class>com.V5.controller.edit</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>delete1</servlet-name>
+  	<display-name>delete1</display-name>
+  	<description></description>
+  	<servlet-class>com.V5.controller.delete1</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>movie</servlet-name>
+  	<display-name>movie</display-name>
+  	<description></description>
+  	<servlet-class>com.V5.controller.user.movie</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MovieDetailsServlet</servlet-name>
+  	<display-name>MovieDetailsServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.V5.controller.user.MovieDetailsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>delete</servlet-name>
+  	<url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>afsd</servlet-name>
+  	<url-pattern>/afsd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>edit</servlet-name>
+  	<url-pattern>/edit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>delete1</servlet-name>
+  	<url-pattern>/delete1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>movie</servlet-name>
+  	<url-pattern>/movie</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MovieDetailsServlet</servlet-name>
+  	<url-pattern>/MovieDetailsServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+  <welcome-file>intro.jsp
+  </welcome-file>
+  </welcome-file-list>
+</web-app>
